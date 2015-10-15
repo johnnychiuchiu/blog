@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Johnny's Blog</title>
+	<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+	<meta charset="UTF-8">
+
+
+</head>
+<body>
+
+<div id="nav">
+	<button type="button">新增文章</button>	
+	<button onclick="location.href = './postlist.php';">文章列表</button>
+</div>
+
+<div id="section">
+	<form name="form1" method="POST" action="process.php">
+		標題<br><input type="text" name="title" size="50"/><br/>
+		內文<br><textarea name="content" rows="50" cols="50">
+		</textarea>
+		<input type="submit" value="送出"/>
+		<!--<input type="reset" value="提交"/>-->
+	</form>
+</div>
+
+
+
+</body>
+</html>
