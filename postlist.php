@@ -69,7 +69,8 @@
 				    		}
 						} else {
 				    		echo "none";
-				    	}
+				    	}				    									
+						echo "<a href='postlist-paginated.php'>View Paginated</a>";						
 				?>	
 	
 
